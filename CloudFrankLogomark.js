@@ -1,4 +1,4 @@
-import SVGMarks from 'https://cloudfrank.github.io/WindowPane/SVGMarks.js';
+import SVGMarks from 'https://cloudfrank.github.io/SvgMark/SVGMarks.js';
  
 export default class CloudFrankLogomark extends SVGMarks {
   constructor() {
