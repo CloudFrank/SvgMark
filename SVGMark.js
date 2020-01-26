@@ -1,4 +1,4 @@
-class SVGMark extends HTMLDivElement {
+export default class SVGMark extends HTMLDivElement {
   constructor() {
     super();
     this.attachShadow({mode: 'open'});
