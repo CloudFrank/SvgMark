@@ -1,3 +1,5 @@
+import SVGMarks from 'https://cloudfrank.github.io/SvgMark/SVGMarks.js';
+
 export default class CloudFrankLogotype extends SVGMarks {
   constructor() {
     super();
