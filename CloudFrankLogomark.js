@@ -16,6 +16,15 @@ export default class CloudFrankLogomark extends SVGMarks {
     `;
   }
   
+  divStyle() {
+    return `
+      div {
+        width: 1em;
+        height: calc(312.23976 / 512 * 1em);
+      }
+    `;
+  }
+  
 };
 
 //customElements.define('cloud-frank-logomark', CloudFrankLogomark, { extends: "div"});
