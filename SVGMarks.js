@@ -24,22 +24,21 @@ export default class SVGMarks extends HTMLDivElement {
     return `
       <style>
         :host {
-          display: grid;
+          display: inline-grid;
           grid-template: auto / auto;
           align-items: center;
           justify-items: center;
+          width: max-content!important;
+          height: max-content!important;
         }
-        div {
-          width: inherit;
-          height: inherit;
-          min-width: max-content;
-          min-height: max-content;
-          max-width: 100%;
-          max-height: 100%;
-        }
+        ${this.divStyle()}
 
       </style>
     `;
+  }
+  
+  divStyle() {
+    return ``;
   }
 };
 
