@@ -5,6 +5,7 @@ export default class WordRinkLogomark extends SVGMarks {
     super();
   }
   
+  
   mark() {
     return `
       <div is='svg-mark'>
@@ -13,6 +14,15 @@ export default class WordRinkLogomark extends SVGMarks {
           </path>
         </svg>
       </div>
+    `;
+  }
+  
+  divStyle() {
+    return `
+      div {
+        width: 1em;
+        height: calc(512 / 512 * 1em);
+      }
     `;
   }
   
