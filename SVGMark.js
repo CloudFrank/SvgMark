@@ -27,7 +27,7 @@ export default class SVGMark extends HTMLDivElement {
           position: relative;
         }
         ::slotted(svg) {
-          display: block;
+          display: grid;
           width: 100%;
           height: 100%;
           fill: #f9f9f9;
