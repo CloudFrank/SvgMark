@@ -16,6 +16,15 @@ export default class WordRinkLogotype extends SVGMarks {
     `;
   }
   
+  divStyle() {
+    return `
+      div {
+        width: 1em;
+        height: calc(36.16 / 256 * 1em);
+      }
+    `;
+  }
+  
 };
 
 //customElements.define('word-rink-logotype', WordRinkLogotype, { extends: "div"});
