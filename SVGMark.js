@@ -30,7 +30,7 @@ export default class SVGMark extends HTMLDivElement {
           display: grid;
           width: 100%;
           height: 100%;
-          fill: #f9f9f9;
+          fill: currentColor;
           position: absolute;
         }
 
