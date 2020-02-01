@@ -3,12 +3,12 @@ customElements.define('svg-mark', SVGMark, { extends: "div"});
 import SVGMarks from 'https://cloudfrank.github.io/SvgMark/SVGMarks.js';
 customElements.define('svg-marks', SVGMarks, { extends: "div"});
 
-import CloudFrankLogomark from 'https://cloudfrank.github.io/SvgMark/CloudFrankLogomark.js';
-customElements.define('cloud-frank-logomark', CloudFrankLogomark, { extends: "div"});
-import CloudFrankLogotype from 'https://cloudfrank.github.io/SvgMark/CloudFrankLogotype.js';
-customElements.define('cloud-frank-logotype', CloudFrankLogotype, { extends: "div"});
+import CloudfrankLogomark from 'https://cloudfrank.github.io/SvgMark/CloudfrankLogomark.js';
+customElements.define('cloudfrank-logomark', CloudfrankLogomark, { extends: "div"});
+import CloudfrankLogotype from 'https://cloudfrank.github.io/SvgMark/CloudfrankLogotype.js';
+customElements.define('cloudfrank-logotype', CloudfrankLogotype, { extends: "div"});
 
-import WordRinkLogomark from 'https://cloudfrank.github.io/SvgMark/WordRinkLogomark.js';
-customElements.define('word-rink-logomark', WordRinkLogomark, { extends: "div"});
-import WordRinkLogotype from 'https://cloudfrank.github.io/SvgMark/WordRinkLogotype.js';
-customElements.define('word-rink-logotype', WordRinkLogotype, { extends: "div"});
+import WordrinkLogomark from 'https://cloudfrank.github.io/SvgMark/WordrinkLogomark.js';
+customElements.define('wordrink-logomark', WordrinkLogomark, { extends: "div"});
+import WordrinkLogotype from 'https://cloudfrank.github.io/SvgMark/WordrinkLogotype.js';
+customElements.define('wordrink-logotype', WordrinkLogotype, { extends: "div"});
