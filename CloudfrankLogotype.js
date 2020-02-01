@@ -1,6 +1,6 @@
 import SVGMarks from 'https://cloudfrank.github.io/SvgMark/SVGMarks.js';
 
-export default class CloudFrankLogotype extends SVGMarks {
+export default class CloudfrankLogotype extends SVGMarks {
   constructor() {
     super();
   }
@@ -27,4 +27,4 @@ export default class CloudFrankLogotype extends SVGMarks {
   
 };
 
-//customElements.define('cloud-frank-logotype', CloudFrankLogotype, { extends: "div"});
+//customElements.define('cloudfrank-logotype', CloudfrankLogotype, { extends: "div"});
